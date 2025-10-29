@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Wotfard';
+    src:url("./images/Wotfard.otf") format("opentype");
+}
+html{
+    font-family: 'Wotfard';
+}
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #1E2837;
+}
+ul{
+    padding: 0px 10px;
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    align-items: baseline;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li#logo{
+    margin-right: auto;
+    font-size: 32px;
+}
+.coverpage{
+    background-color: #1E2837;
+    padding: 120px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.coverpage.welcome{
+    display: flex;
+}
+.welcome{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.welcome div{
+    padding: 2px 10px;
+    margin: 2px 10px;
+}
+#wben{
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    text-align: left;
+}
+#wbens{
+    color: rgb(208, 202, 202);
+    font-size: 20px;
+}
+.welcome button{
+    width: 120px;
+    color: whitesmoke;
+    font-weight: 600;
+    margin-left: 20px;
+    margin-top: 10px;
+    background-color: blue;
+    border: none;
+    font-size: 14px;
+    padding:10px 20px;
+    border-radius: 7px;
+}
+.coverpage .banner img{
+   border-radius: 50%;
+   border: 2px solid rgb(255, 98, 0);
+}
+.ourlanguages{
+    font-size:40px;
+    font-weight: bolder;
+    padding: 50px 0px;
+}
+.languagepage{
+    display:flex;
+    gap:50px;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+.languagepage div img{
+    border: 3px solid rgb(0, 136, 255);
+    border-radius: 7%;
+    margin: 10px;
+}
+.languagepage div div{
+    color: rgb(85, 83, 83);
+    font-size: 20px;
+}
+.quotespage{
+    background-color: #E5E6EA;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+#quote{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#1F2937;
+    font-style: italic;
+    margin: 0px 200px;
+    text-align: left;
+    font-weight: lighter;
+}
+#mandela{
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: right;
+    margin-right:250px;
+}
+.signuppage{
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+}
+.bluebox{
+    display: flex;
+    background-color: #3882f6;
+    width: 1100px;
+    height: 150px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.signups{
+    margin-left: -100px;
+    color: white;
+}
+#signup{
+    margin-right: -140px;
+}
+.signups div{
+    font-size: 26px;
+    margin-bottom: -20px;
+    font-weight: 800;
+}
+.signups p{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(233, 229, 229);
+}
+.bluebox button{
+    border: 2px solid white;
+    border-radius: 7px;
+    background-color:#3882f6;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    width: 130px;
+    padding: 7px;
+    margin-top: -10px;
+}
+footer{
+    background-color: #1E2837;
+    padding: 50px 0px;
+    color: rgb(229, 226, 226);
+    font-size: 18px;
+}
